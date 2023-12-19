@@ -89,3 +89,39 @@ div.cores {
     min-width: 50vw;
     text-align: center;
 }
+
+@media (min-width: 320px) and (max-width: 520px) {
+    body {
+        height: 100%;
+        width: 100%;
+        display: inline;
+       
+        align-items: center;
+        justify-content: center;
+    }
+    .relogio {
+        height: 70vh;
+        width: 90vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .relogio div {
+        position: relative;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+div.cores {
+    position: relative;
+    top: 70%;
+    left: 0;
+    transform: translateX(-50%, -50%);
+    min-width: 50vw;
+    text-align: center;
+}
+
+}
